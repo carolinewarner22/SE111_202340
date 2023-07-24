@@ -1,0 +1,46 @@
+.first {
+    font-family: Calibri Light;
+    color: blue;
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.second {
+    font-family: Calibri Light;
+    color: magenta;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.third {
+    font-family: Calibri Light;
+    color: green;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.divstyle {
+    border: 3px solid blue;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    .headerstyle {
+    border: 3px solid magenta;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 10px;
+    font-family: Calibri Light;
+    color: red;
+    }
+    .paragraphstyle {
+    border: 3px solid green;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: Calibri Light;
+    }
