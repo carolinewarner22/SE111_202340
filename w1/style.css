@@ -24,8 +24,8 @@
     border: 3px solid blue;
     margin-left: 20px;
     margin-right: 20px;
-    }
-    .headerstyle {
+}
+.headerstyle {
     border: 3px solid magenta;
     margin-left: 20px;
     margin-right: 20px;
@@ -34,8 +34,8 @@
     padding: 10px;
     font-family: Calibri Light;
     color: red;
-    }
-    .paragraphstyle {
+}
+.paragraphstyle {
     border: 3px solid green;
     margin-left: 20px;
     margin-right:20px;
@@ -43,4 +43,4 @@
     margin-bottom: 20px;
     padding: 10px;
     font-family: Calibri Light;
-    }
+}
