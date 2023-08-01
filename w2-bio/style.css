@@ -1,0 +1,53 @@
+.header {
+    text-align: center;
+}
+.capacity {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+a.menu:link,
+a.menu:visited {
+    padding: 10px;
+    font-size: 18pt;
+    color: blue;
+}
+a.menu:hover {
+    color: green;
+}
+.separate {
+    display: inline-block;
+    height: 20px;
+    border-left: 1px solid black;
+    margin: 0 10px;
+}
+.headertwo {
+    font-size: 20pt;
+    color: green;
+}
+.imgholder {
+    align-items: center;
+}
+.img {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.bodytext {
+    font-size: 20pt;
+    text-align: justify;
+}
+
+a.valorant:link,
+a.valorant:visited {
+    color: red;
+}
+a.valorant:hover {
+    color: black;
+}
+.footer {
+    text-align: center;
+}

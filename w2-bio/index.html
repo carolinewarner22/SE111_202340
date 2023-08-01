@@ -5,35 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Caroline">
     <meta name="description" content="W2 Bio">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>   <!--importing style.css-->
+    <title>Caroline Warner - About Me</title>
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <!--Caroline Warner - 202340_SE111.02 - 07.31.2023-->
 </head>
 <body>
-    <h1 id="header">Caroline Warner - About Me</h1>
-    <div id="nav">
-
-        <h2 id="bio">Bio</h2>
-        <p>My name is Caroline! I am in my second term at the New England Insitute </p>
-        <img src="images/pictureofme.jpg" alt="picture of me">
-        <h2 id="schooling">Schooling</h2>
-        <ol>
-            <li>William S. Rogers High School</li>
-            <li>The Prout School</li>
-            <li>Rhode Island Connections Academy</li>
-            <li>New England Institute of Technology</li>
+    <h1 class="header" id="header">About Caroline Warner</h1>   <!--heading one-->
+    <div class="capacity">
+        <div id="nav" align="center">   <!--creating a menu w/ links to each section of page-->
+            <a href="#bio" class="menu">Bio</a>
+            <span class="separate"></span>
+            <a href="#schooling" class="menu">Schooling</a>
+            <span class="separate"></span>
+            <a href="#hobbies" class="menu">Hobbies</a>
+            <span class="separate"></span>
+            <a href="#footer" class="menu">Footer</a>
+        </div>
+        <div class="imgholder">
+            <img src="images/pictureofme.jpg" alt="picture of me" class="img">  <!--centered image of my face-->
+        </div>
+        <hr>
+        <h2 class="headertwo" id="bio">Bio</h2> <!--heading two ... my bio-->
+        <p class="bodytext">My name is Caroline! This is my second term at the <b>New England Insitute of Technology</b>. I am studying Software Engineering and Web Development. I am very passionate about technology and coding! As I continue my education at NEIT, I will be working on a few mobile application projects. My goal is to be an app developer and I would <em>love</em> to work on personal health applications! I graduated high school in June of 2022 and I live in Newport, RI. I live with my parents, older sister, and two cats.</p> <!--paragraph about me-->
+        <hr>
+        <h2 class="headertwo" id="schooling">Schooling</h2> <!--heading two ... school-->
+        <ol class="bodytext">   <!--ordered list of high schools + NEIT with years I attended-->
+            <li>William S. Rogers High School <i>(2018-2020)</i></li>
+            <li>The Prout School <i>(2020-2021)</i></li>
+            <li>Rhode Island Connections Academy <i>(2021-2022)</i></li>
+            <li><strong>New England Institute of Technology</strong> <i>(2023-Present)</i></li>
         </ol>
 
-        <h2 id="hobbies">Hobbies</h2>
+        <h2 class="headertwo" id="hobbies">Interests and Hobbies</h2>   <!--heading two ... hobbies-->
 
-        <ul>
-            <li>Videogames - Valorant, Overwatch, Left for Dead, CSGO</li>
-            <li></li>
-            <li></li>
+        <ul class="bodytext">   <!--bulleted list of hobbies-->
+            <li>Videogames - <a href="https://www.playvalorant.com/" class="valorant">Valorant</a>, Overwatch, Left for Dead, CSGO</li> <!--here is my hyperlink ... links to Riot Games page-->
+            <li>Ice skating</li>
+            <li>Listening to music</li>
+            <li>Going to the movies</li>
         </ul>
-
-        <footer id="footer">
-
-        </footer>
+            <img src="images/iceskating.jpg" alt="ice skating rink at sunset" class="img">  <!--image of ice skating rink-->
+    </div>
+    <hr>
+    <div id="footer" class="footer">    <!--footer-->
+        <h2 class="header">Thank you for visiting!</h2>
+        <br>
+        <a href="#header" class="menu">Back to Top</a>  <!--link to return to top of page-->
     </div>
 </body>
 </html>
