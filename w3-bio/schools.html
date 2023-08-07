@@ -8,39 +8,41 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>   <!--importing style.css-->
     <title>Caroline Warner - About Me</title>
     <link rel="icon" href="images/icon.png" type="image/png">
-    <!--Caroline Warner - 202340_SE111.02 - 07.31.2023-->
+    <!--Caroline Warner - 202340_SE111.02 - 08.07.2023-->
 </head>
 <body>
-    <h1 class="header" id="header">About Caroline Warner</h1>   <!--heading one-->
-    <div class="capacity">
+
+    <div id="wrapper" class="capacity">
+        <div id="header" class="bg">
+            <h1 class="header" id="header">About Caroline Warner</h1>   <!--heading one-->
+        </div>
         <div id="nav" align="center">   <!--creating a menu w/ links to each section of page-->
             <a href="index.html" class="menu">Bio</a>
             <span class="separate"></span>
-            <a href="schools.html" class="menu">Schooling</a>
+            <a href="schools.html" class="menu">Schools</a>
             <span class="separate"></span>
             <a href="hobbies.html" class="menu">Hobbies</a>
-            <span class="separate"></span>
-            <a href="#footer" class="menu">Footer</a>
         </div>
         <div class="imgholder">
             <img src="images/pictureofme.jpg" alt="picture of me" class="img">  <!--centered image of my face-->
         </div>
-        <hr>
-        <h2 class="headertwo" id="bio">Schools</h2> <!--heading two ... my bio-->
-
-        <ol class="bodytext">   <!--ordered list of high schools + NEIT with years I attended-->
-            <li>William S. Rogers High School <i>(2018-2020)</i></li>
-            <li>The Prout School <i>(2020-2021)</i></li>
-            <li>Rhode Island Connections Academy <i>(2021-2022)</i></li>
-            <li><strong>New England Institute of Technology</strong> <i>(2023-Present)</i></li>
-        </ol>
+        <div id="main-content">
+            <hr>
+            <h2 class="headertwo" id="bio">Schools</h2>
+            <ol class="bodytext">   <!--ordered list of high schools + NEIT with years I attended-->
+                <li>William S. Rogers High School <i>(2018-2020)</i></li>
+                <li>The Prout School <i>(2020-2021)</i></li>
+                <li>Rhode Island Connections Academy <i>(2021-2022)</i></li>
+                <li><strong>New England Institute of Technology <img src="images/smalllogo.png" alt="neit logo" style="height:25px;"></strong> <i>(2023-Present)</i></li>
+            </ol>
             <img src="images/iceskating.jpg" alt="ice skating rink at sunset" class="img">  <!--image of ice skating rink-->
-    </div>
-    <hr>
-    <div id="footer" class="footer">    <!--footer-->
-        <h2 class="header">Thank you for visiting!</h2>
-        <br>
-        <a href="#header" class="menu">Back to Top</a>  <!--link to return to top of page-->
+            <hr>
+        </div>
+        <div id="footer" class="footer">    <!--footer-->
+            <h2 class="header">Thank you for visiting!</h2>
+            <br>
+            <a href="#header" class="menu">Back to Top</a>  <!--link to return to top of page-->
+        </div>
     </div>
 </body>
 </html>

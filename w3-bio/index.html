@@ -8,36 +8,47 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>   <!--importing style.css-->
     <title>Caroline Warner - About Me</title>
     <link rel="icon" href="images/icon.png" type="image/png">
-    <!--Caroline Warner - 202340_SE111.02 - 07.31.2023-->
+    <!--Caroline Warner - 202340_SE111.02 - 08.07.2023-->
 </head>
 <body>
-    <div id="header" class="bg">
-        <h1 class="header" id="header">About Caroline Warner</h1>   <!--heading one-->
-    </div>
 
-    <div class="capacity">
+    <div id="wrapper" class="capacity">
+        <div id="header" class="bg">
+            <h1 class="header" id="header">About Caroline Warner</h1>   <!--heading one-->
+        </div>
         <div id="nav" align="center">   <!--creating a menu w/ links to each section of page-->
             <a href="index.html" class="menu">Bio</a>
             <span class="separate"></span>
-            <a href="schools.html" class="menu">Schooling</a>
+            <a href="schools.html" class="menu">Schools</a>
             <span class="separate"></span>
             <a href="hobbies.html" class="menu">Hobbies</a>
-            <span class="separate"></span>
-            <a href="#footer" class="menu">Footer</a>
         </div>
         <div class="imgholder">
             <img src="images/pictureofme.jpg" alt="picture of me" class="img">  <!--centered image of my face-->
         </div>
-        <hr>
-        <h2 class="headertwo" id="bio">Bio</h2> <!--heading two ... my bio-->
-        <p class="bodytext">My name is Caroline! This is my second term at the <b>New England Insitute of Technology</b>. I am studying Software Engineering and Web Development. I am very passionate about technology and coding! As I continue my education at NEIT, I will be working on a few mobile application projects. My goal is to be an app developer and I would <em>love</em> to work on personal health applications! I graduated high school in June of 2022 and I live in Newport, RI. I live with my parents, older sister, and two cats.</p> <!--paragraph about me-->
+        <div id="main-content">
+            <hr>
+            <h2 class="headertwo" id="bio">Bio</h2>
+            <table style="width: 100%;">
+                <tr>
+                    <td style="vertical-align: top;">
+                        <img src="images/neitlogo.png" alt="new england tech logo" style="height: 250px; margin-right: 10px;">
+                    </td>
+                    <td>
+                        <p class="bodytext">
+                            My name is Caroline! <img src="images/happyface.png" alt="happy face" style="height:25px;"> This is my second term at the <b>New England Institute of Technology</b>. I am studying Software Engineering and Web Development. I am very passionate about technology and coding! As I continue my education at NEIT, I will be working on a few mobile application projects. My goal is to be an app developer and I would <em>love</em> to work on personal health applications! I graduated high school in June of 2022 and I live in Newport, RI. I live with my parents, older sister, and two cats.
+                        </p>
+                    </td>
+                </tr>
+            </table>            
             <img src="images/iceskating.jpg" alt="ice skating rink at sunset" class="img">  <!--image of ice skating rink-->
-    </div>
-    <hr>
-    <div id="footer" class="footer">    <!--footer-->
-        <h2 class="header">Thank you for visiting!</h2>
-        <br>
-        <a href="#header" class="menu">Back to Top</a>  <!--link to return to top of page-->
+            <hr>
+        </div>
+        <div id="footer" class="footer">    <!--footer-->
+            <h2 class="header">Thank you for visiting!</h2>
+            <br>
+            <a href="#header" class="menu">Back to Top</a>  <!--link to return to top of page-->
+        </div>
     </div>
 </body>
 </html>
