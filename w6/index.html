@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Caroline Warner">
+    <meta name="description" content="W6 JavaScript Pay Calculator">
+    <title>W6 | JS Pay Calculator</title>
+</head>
+<body>
+    <h1>W6 | JavaScript Pay Calculator</h1>
+    <script>
+        var rate = prompt(`Please enter your hourly rate: `)
+        var hours = prompt(`Please enter your hours worked over a two-week period: `)
+
+        var grossPay = Number(rate) * Number(hours)
+        var taxCollected = grossPay * 0.2
+        var netPay = grossPay - taxCollected
+
+        alert(`Gross Pay: $`+ grossPay.toFixed(2) + `\nUncle Sam's Share: $` + taxCollected.toFixed(2) + `\nNet Pay: $` + netPay.toFixed(2))
+
+        console.log(`Gross Pay: $` + grossPay.toFixed(2))
+        console.log(`Uncle Sam's Share: $` + taxCollected.toFixed(2))
+        console.log(`Net Pay: $` + netPay.toFixed(2))
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Caroline Warner">
+    <meta name="description" content="W6 Demo - Intro to JS">
+
+    <title>W6 | JS Intro</title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Week 6 Intro Demo | Javascript</h1>
+    <script>
+        //creating a variable -- keyword 'var'
+        var num1 = 10
+        var num2 = 7
+
+        //cannot use num1 or num2 until: they have been declared and assigned value [DEFINED]
+        var sum = num1 + num2
+
+        //alert allows for a pop-up in the browser page to display data to the user
+        //alert() --> python's print() / OUTPUT
+
+        //the user can see this in the page
+        alert("hello world!")
+
+        //for development - only accessible in console via dev tools
+        console.log("hi universe!")
+
+        console.log("the sum is: ", sum)
+
+        //` ` denotes literal strings --> work similar to the .format()
+        console.log(`The sum is: \n${sum}`)
+
+        //escape sequences also work inside of strings --> \n [new line]
+
+        //prompt() asks user to enter data - creates pop-up, so works similarly to alert()
+        var fname = prompt("Enter your name: ")
+
+        alert(`Hi there ${fname}`)
+        
+        var age = prompt(`Enter your age: `)
+
+        var dogYears = age * 7
+
+        console.log(`In dog years you are: ${dogYears}yo`)
+    </script>
+</body>
+</html>
